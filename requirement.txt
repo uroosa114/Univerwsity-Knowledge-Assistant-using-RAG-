@@ -1,0 +1,12 @@
+python-dotenv - read your api key fron .env 
+google-genai - communicarte with googles genimini api key 
+model used:    model="gemini-3.5-flash-lite",
+pypdf - to read pdf 
+chromadb - store and search embeddings 
+geminiai-embeddings-001 : turn text into numerical reprsentation called embeddings (model="gemini-embedding-001",)
+ streamlit - to make webpage  command (python -m streamlit run app.py)
+
+
+
+
+ 
