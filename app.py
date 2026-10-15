@@ -14,10 +14,15 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+#API_SETUP
 
-# ---------- API SETUP ----------
 load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY")
+
+api_key = st.secrets.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")
+
+
+
+
 
 
 # ---------- CUSTOM STYLING ----------
